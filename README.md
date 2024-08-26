@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **vishwakarmaarpit621@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1yBS2YEedwOFimECaj1jWx8Btw-dM6ZST/view](https://drive.google.com/file/d/1yBS2YEedwOFimECaj1jWx8Btw-dM6ZST/view)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1yBS2YEedwOFimECaj1jWx8Btw-dM6ZST/view](https://drive.google.com/file/d/1FolekJN8AtamV3O9s15AQ0vY0qXEYQbX/view?usp=drive_link)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
