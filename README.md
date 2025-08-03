@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">🌱 I’m currently learning NextJS & TypeScript<br><br>👨‍💻 All of my projects are available at https://arpit-amber.vercel.app/<br><br>📫 How to reach me vishwakarmaaarpit621@gmail.com<br><br>📄 Know about my experiences https://docs.google.com/document/d/1NV9K9sPeSAzxgG6zDsAnRlSv7IRMGwQTyQ_Rzq8_XvA/edit?tab=t.0</p>
+<p align="left">🌱 I’m currently learning NextJS & TypeScript<br><br>👨‍💻 All of my projects are available at https://arpit-amber.vercel.app/<br><br>📫 How to reach me vishwakarmaaarpit621@gmail.com<br><br>📄 Know about my experiences https://drive.google.com/file/d/1Sz3t9RNbCna1JFTx0fq4SClsl7nLMgxX/view?usp=drive_link</p>
 
 ###
 
