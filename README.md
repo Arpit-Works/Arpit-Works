@@ -19,32 +19,39 @@ Building scalable backend systems, production-ready APIs, and reliable full-stac
 * 📍 Mumbai, India
 
 ---
-
 ## 🛠 Tech Stack
+
+<div align="center">
 
 ### Languages
 
-`JavaScript` `TypeScript` `Python` `Bash/Shell`
+<img src="https://skillicons.dev/icons?i=js,ts,python,bash" />
 
 ### Backend
 
-`Node.js` `Express.js` `REST APIs` `JWT Auth` `Socket.io` `Redis` `Cron Jobs` `Microservices`
+<img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
+<img src="https://cdn.simpleicons.org/socketdotio/white" height="48" alt="Socket.io"/>
+<img src="https://cdn.simpleicons.org/jsonwebtokens" height="48" alt="JWT"/>
 
 ### Frontend
 
-`React.js` `Next.js` `HTML` `CSS` `Tailwind CSS` `Material UI`
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,materialui" />
 
 ### Databases
 
-`MongoDB` `MySQL` `VerticaDB`
+<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+<img src="https://cdn.simpleicons.org/databricks" height="48" alt="VerticaDB"/>
 
-### DevOps & Tools
+### DevOps & Cloud
 
-`Docker` `Git` `GitHub` `Linux` `GCP` `Postman`
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,gcp,postman" />
 
-### Monitoring & Productivity
+### Monitoring & Tools
 
-`Dynatrace` `Opsgenie` `Jira`
+<img src="https://cdn.simpleicons.org/opsgenie" height="48" alt="Opsgenie"/>
+<img src="https://skillicons.dev/icons?i=jira" />
+
+</div>
 
 ---
 
