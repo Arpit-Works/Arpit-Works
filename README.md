@@ -30,7 +30,7 @@ Building scalable backend systems, production-ready APIs, and reliable full-stac
 ### Backend
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
-<img src="https://cdn.simpleicons.org/jsonwebtokens" height="48" alt="JWT"/>
+<img src="https://cdn.simpleicons.org/jsonwebtokens/white" height="48" alt="JWT"/>
 
 ### Frontend
 
@@ -48,7 +48,7 @@ Building scalable backend systems, production-ready APIs, and reliable full-stac
 ### Monitoring & Tools
 
 <img src="https://cdn.simpleicons.org/opsgenie" height="48" alt="Opsgenie"/>
-<img src="https://skillicons.dev/icons?i=jira" />
+<img src="https://cdn.simpleicons.org/jira/white" height="48" alt="Jira"/>
 
 </div>
 
