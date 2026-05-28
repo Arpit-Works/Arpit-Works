@@ -30,7 +30,6 @@ Building scalable backend systems, production-ready APIs, and reliable full-stac
 ### Backend
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
-<img src="https://cdn.simpleicons.org/socketdotio/white" height="48" alt="Socket.io"/>
 <img src="https://cdn.simpleicons.org/jsonwebtokens" height="48" alt="JWT"/>
 
 ### Frontend
