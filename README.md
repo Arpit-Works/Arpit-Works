@@ -1,4 +1,6 @@
- # Hi 👋, I'm Arpit Vishwakarma
+<h3 align="center">
+  Hi 👋, I'm Arpit Vishwakarma
+</h3>
 
 <h3 align="center">
   Backend-Focused Full Stack Developer
