@@ -1,126 +1,200 @@
 # Hi 👋, I'm Arpit Vishwakarma
 
-<h3 align="center">Backend-Focused Full Stack Developer | Node.js • TypeScript • REST APIs • Microservices</h3>
+<h3 align="center">
+  Backend-Focused Full Stack Developer
+</h3>
 
 <p align="center">
-Building scalable backend systems, production-ready APIs, and reliable full-stack applications.
+  <b>Node.js • TypeScript • REST APIs • Microservices • System Design</b>
+</p>
+
+<p align="center">
+  Building scalable backend systems, production-ready APIs, and reliable full-stack applications.
+</p>
+
+<p align="center">
+  <a href="https://arpit-amber.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/arpit-vishwakarma23/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:vishwakarmaarpit621@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-* 💻 Backend-focused Full Stack Developer passionate about building scalable applications and solving production problems
-* 🔭 Currently working as an **Associate Software Engineer @ Netcore Cloud**
-* 🌱 Exploring **Distributed Systems, System Design, Docker, and Backend Architecture**
-* ⚡ Experienced with **REST APIs, JWT Authentication, Real-time Systems, Monitoring & Debugging**
-* 🚀 Portfolio: **https://arpit-amber.vercel.app/**
-* 📫 Reach me: **[vishwakarmaarpit621@gmail.com](mailto:vishwakarmaarpit621@gmail.com)**
-* 📍 Mumbai, India
-
----
-## 🛠 Tech Stack
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=js,ts,python,bash" />
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
-<img src="https://cdn.simpleicons.org/jsonwebtokens/white" height="48" alt="JWT"/>
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,materialui" />
-
-### Databases
-
-<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
-<img src="https://cdn.simpleicons.org/databricks" height="48" alt="VerticaDB"/>
-
-### DevOps & Cloud
-
-<img src="https://skillicons.dev/icons?i=docker,git,github,linux,gcp,postman" />
-
-### Monitoring & Tools
-
-<img src="https://cdn.simpleicons.org/opsgenie" height="48" alt="Opsgenie"/>
-<img src="https://cdn.simpleicons.org/jira/white" height="48" alt="Jira"/>
-
-</div>
+- 💼 **Associate Software Engineer @ Netcore Cloud**
+- 🔧 Backend-focused developer with experience building and debugging production systems
+- 🚀 Experienced in **REST APIs, authentication, real-time systems, monitoring, and debugging**
+- 🧩 Interested in **Microservices, Distributed Systems, System Design, and Backend Architecture**
+- 🐳 Currently deepening my knowledge of **Docker, scalable systems, and cloud infrastructure**
+- 📍 Mumbai, India
 
 ---
 
-## 💼 Experience
+## 🧠 What I Work With
 
-### Associate Software Engineer | Netcore Cloud Pvt. Ltd. *(Feb 2025 – Present)*
+```text
+Backend Development
+        ↓
+REST APIs & Authentication
+        ↓
+Databases & Caching
+        ↓
+Microservices & Distributed Systems
+        ↓
+System Design & Scalability
+```
 
-* Monitored distributed microservices and improved system reliability
-* Automated monitoring workflows using Python/Bash scripts
-* Investigated production incidents through logs, traces, and API debugging
-* Worked closely with backend teams on performance improvements and bug fixes
-* Contributed to internal tooling and operational excellence initiatives
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,python,bash" />
+</p>
+
+### ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
+  <img src="https://cdn.simpleicons.org/jsonwebtokens/white" height="48" alt="JWT" />
+</p>
+
+### 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,materialui" />
+</p>
+
+### 🗄️ Databases
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+  <img src="https://cdn.simpleicons.org/databricks" height="48" alt="VerticaDB" />
+</p>
+
+### ☁️ DevOps & Cloud
+
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,gcp,postman" />
+</p>
+
+### 📊 Monitoring & Collaboration
+
+<p>
+  <img src="https://cdn.simpleicons.org/opsgenie" height="48" alt="Opsgenie" />
+  <img src="https://cdn.simpleicons.org/jira/white" height="48" alt="Jira" />
+</p>
+
+---
+
+## 💼 Professional Experience
+
+### Associate Software Engineer — Netcore Cloud
+
+**Feb 2025 – Present**
+
+- 🔍 Monitor and troubleshoot distributed microservices in production environments
+- ⚙️ Automate monitoring and operational workflows using **Python & Bash**
+- 🐛 Investigate production incidents using **logs, traces, metrics, and API debugging**
+- 🚀 Collaborate with backend teams to identify performance bottlenecks and improve system reliability
+- 🛠️ Contribute to internal tooling and operational efficiency
+- 📈 Work with production systems where reliability, observability, and debugging are critical
 
 ---
 
 ## 🚀 Featured Projects
 
-### MIS Dashboard — Role-Based College Management System
+### 🏫 MIS Dashboard — Role-Based College Management System
 
-**Node.js • Express.js • MongoDB • TypeScript • Socket.io**
+**Node.js • Express.js • TypeScript • MongoDB • Socket.io**
 
-* Developed scalable REST APIs with role-based access control
-* Implemented JWT authentication with refresh token rotation
-* Added real-time updates using Socket.io
-* Built analytics dashboards and reporting modules
+A full-stack management platform designed around role-based access and real-time communication.
 
-### Personal Portfolio
+#### Key Features
 
-**Next.js • TypeScript • Tailwind CSS**
-
-* Optimized SEO and performance
-* Built reusable components with strict typing
-* Responsive design across devices
+- 🔐 JWT-based authentication
+- 🔄 Refresh token rotation
+- 👥 Role-based access control
+- ⚡ Real-time updates using Socket.io
+- 📊 Analytics and reporting dashboards
+- 🔌 RESTful API architecture
+- 🗄️ MongoDB-based data management
 
 ---
 
-## 🌐 Connect With Me
+### 🌐 Personal Portfolio
 
-<p align="left">
-<a href="https://github.com/Arpit-Works" target="blank">
-<img src="https://skillicons.dev/icons?i=github" width="45"/>
-</a>
+**Next.js • TypeScript • Tailwind CSS**
 
-<a href="https://www.linkedin.com/in/arpit-vishwakarma23/" target="blank">
-<img src="https://skillicons.dev/icons?i=linkedin" width="45"/>
-</a>
+My personal developer portfolio showcasing my experience, projects, and technical skills.
 
-<a href="mailto:vishwakarmaarpit621@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail" width="45"/>
-</a>
+#### Highlights
+
+- ⚡ Performance optimized
+- 🔎 SEO optimized
+- 🧩 Reusable component architecture
+- 📱 Fully responsive design
+- 🛡️ Type-safe development with TypeScript
+
+<p align="center">
+  <a href="https://arpit-amber.vercel.app/">
+    <img src="https://img.shields.io/badge/View%20Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
 </p>
 
 ---
 
 ## 📊 GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Arpit-Works&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+    height="170"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arpit-Works&layout=compact&theme=tokyonight&hide_border=true"
+    height="170"
+  />
+</p>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Arpit-Works&show_icons=true&theme=tokyonight&count_private=true"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arpit-Works&layout=compact&theme=tokyonight"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Arpit-Works&theme=tokyonight"/>
-
-</div>
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=Arpit-Works&theme=tokyonight&hide_border=true"
+    width="60%"
+  />
+</p>
 
 ---
 
-## 🎯 Current Focus
+## 🤝 Let's Connect
 
-```text
-Backend Development → APIs → Microservices → System Design → Scalable Systems
-```
+<p align="center">
+
+<a href="https://github.com/Arpit-Works">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/arpit-vishwakarma23/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:vishwakarmaarpit621@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+<p align="center">
+  <i>Building reliable systems. Solving real problems. Learning every day.</i>
+</p>
