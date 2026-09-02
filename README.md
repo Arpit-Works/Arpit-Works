@@ -1,4 +1,4 @@
-# Hi 👋, I'm Arpit Vishwakarma
+ # Hi 👋, I'm Arpit Vishwakarma
 
 <h3 align="center">
   Backend-Focused Full Stack Developer
@@ -155,16 +155,6 @@ My personal developer portfolio showcasing my experience, projects, and technica
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=Arpit-Works&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
-    height="170"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arpit-Works&layout=compact&theme=tokyonight&hide_border=true"
-    height="170"
-  />
-</p>
 
 <p align="center">
   <img
