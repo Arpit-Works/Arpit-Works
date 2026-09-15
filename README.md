@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arpit-amber.vercel.app/">
+  <a href="https://arpit-omega.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://www.linkedin.com/in/arpit-vishwakarma23/">
@@ -148,7 +148,7 @@ My personal developer portfolio showcasing my experience, projects, and technica
 - 🛡️ Type-safe development with TypeScript
 
 <p align="center">
-  <a href="https://arpit-amber.vercel.app/">
+  <a href="https://arpit-omega.vercel.app/">
     <img src="https://img.shields.io/badge/View%20Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
