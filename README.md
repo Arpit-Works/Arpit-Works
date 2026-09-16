@@ -14,20 +14,8 @@
   Building scalable backend systems, production-ready APIs, and reliable full-stack applications.
 </p>
 
-<p align="center">
-  <a href="https://arpit-omega.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://drive.google.com/uc?export=download&id=1Sz3t9RNbCna1JFTx0fq4SClsl7nLMgxX">
-    <img src="https://img.shields.io/badge/Resume-Download-2E7D32?style=for-the-badge&logo=googledrive&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/arpit-vishwakarma23/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:vishwakarmaarpit621@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<p align="center"> <a href="https://arpit-omega.vercel.app/"> <img src="https://img.shields.io/badge/Portfolio-Visit-000?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="https://drive.google.com/file/d/1Sz3t9RNbCna1JFTx0fq4SClsl7nLMgxX/view"> <img src="https://img.shields.io/badge/Resume-View-2E7D32?style=for-the-badge&logo=googledrive&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/arpit-vishwakarma23/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="mailto:vishwakarmaarpit621@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a> </p>
+
 
 ---
 
