@@ -57,6 +57,23 @@ def current_streak(days):
     return n, start
 
 
+def longest_streak(days):
+    best, best_start, best_end = 0, None, None
+    run, run_start, prev = 0, None, None
+    for d in sorted(days):
+        if days[d] > 0:
+            if prev is not None and (d - prev).days == 1 and run > 0:
+                run += 1
+            else:
+                run, run_start = 1, d
+            if run > best:
+                best, best_start, best_end = run, run_start, d
+        else:
+            run = 0
+        prev = d
+    return best, best_start, best_end
+
+
 def fetch_languages():
     q = """query($u:String!){user(login:$u){repositories(first:100,ownerAffiliations:OWNER,isFork:false){nodes{
       languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}}}}}"""
@@ -69,8 +86,8 @@ def fetch_languages():
     return totals, colors
 
 
-def render(streak, since, langs, colors):
-    W, H = 840, 230
+def render(streak, since, best, best_start, best_end, langs, colors):
+    W, H = 920, 230
     total = sum(langs.values()) or 1
     top = sorted(langs.items(), key=lambda x: -x[1])[:6]
     other = total - sum(v for _, v in top)
@@ -84,7 +101,7 @@ def render(streak, since, langs, colors):
         return LANG_COLORS.get(n) or colors.get(n) or FALLBACK[i % len(FALLBACK)]
 
     # stacked bar
-    bx, by, bw, bh = 400, 78, 400, 10
+    bx, by, bw, bh = 500, 78, 390, 10
     bar, x = [], bx
     for i, (n, p) in enumerate(items):
         w = bw * p / 100
@@ -104,6 +121,14 @@ def render(streak, since, langs, colors):
 
     since_txt = since.strftime("%b %d, %Y") if since else "No active streak"
     unit = "day" if streak == 1 else "days"
+    bunit = "day" if best == 1 else "days"
+    if best_start and best_end:
+        if best_start.year == best_end.year:
+            best_txt = f"{best_start.strftime('%b %d')} – {best_end.strftime('%b %d, %Y')}"
+        else:
+            best_txt = f"{best_start.strftime('%b %d, %Y')} – {best_end.strftime('%b %d, %Y')}"
+    else:
+        best_txt = "No streak yet"
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Current streak and top languages">
 <defs>
@@ -114,7 +139,9 @@ def render(streak, since, langs, colors):
   text{{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}}
   .label{{font-size:11px;letter-spacing:1.6px;fill:#7D8590;font-weight:600}}
   .big{{font-size:68px;font-weight:700;fill:url(#g)}}
+  .mid{{font-size:44px;font-weight:700;fill:#E6EDF3}}
   .unit{{font-size:18px;fill:#C9D1D9;font-weight:500}}
+  .unit2{{font-size:15px;fill:#C9D1D9;font-weight:500}}
   .sub{{font-size:12px;fill:#7D8590}}
   .lang{{font-size:13px;fill:#C9D1D9}}
   .pct{{font-size:12px;fill:#7D8590;font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}}
@@ -124,11 +151,17 @@ def render(streak, since, langs, colors):
 
 <text x="40" y="52" class="label">CURRENT STREAK</text>
 <text x="40" y="132" class="big">{streak}</text>
-<text x="{40 + 22 + 40 * len(str(streak))}" y="132" class="unit">{unit}</text>
+<text x="{40 + 14 + 40 * len(str(streak))}" y="132" class="unit">{unit}</text>
 <text x="40" y="162" class="sub">Since {since_txt}</text>
-<text x="40" y="184" class="sub">@{escape(USER)} · contributions on GitHub</text>
 
-<line x1="350" y1="36" x2="350" y2="{H - 36}" stroke="#21262D"/>
+<text x="270" y="52" class="label">LONGEST STREAK</text>
+<text x="270" y="132" class="mid">{best}</text>
+<text x="{270 + 12 + 25 * len(str(best))}" y="132" class="unit2">{bunit}</text>
+<text x="270" y="162" class="sub">{best_txt}</text>
+
+<text x="40" y="196" class="sub">@{escape(USER)} · contributions on GitHub</text>
+
+<line x1="458" y1="36" x2="458" y2="{H - 36}" stroke="#21262D"/>
 
 <text x="{bx}" y="52" class="label">MOST USED LANGUAGES</text>
 <g clip-path="url(#r)">{''.join(bar)}</g>
@@ -139,15 +172,19 @@ def render(streak, since, langs, colors):
 def main():
     if MOCK:
         streak, since = 23, dt.date.today() - dt.timedelta(days=22)
+        best, best_start, best_end = 41, dt.date(2025, 3, 2), dt.date(2025, 4, 11)
         langs = {"TypeScript": 520, "JavaScript": 230, "Python": 120, "Shell": 60, "HTML": 45, "CSS": 25}
         colors = {}
     else:
         if not TOKEN:
             sys.exit("GH_TOKEN is missing")
-        streak, since = current_streak(fetch_days())
+        days = fetch_days()
+        streak, since = current_streak(days)
+        best, best_start, best_end = longest_streak(days)
+        best = max(best, streak)
         langs, colors = fetch_languages()
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    open(OUT, "w", encoding="utf-8").write(render(streak, since, langs, colors))
+    open(OUT, "w", encoding="utf-8").write(render(streak, since, best, best_start, best_end, langs, colors))
     print(f"wrote {OUT} (streak={streak})")
 
 
