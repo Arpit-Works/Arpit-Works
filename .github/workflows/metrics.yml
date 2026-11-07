@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}   # classic PAT, scopes: read:user, repo
+          token: ${{ secrets.METRICS_TOKEN }}
           user: Arpit-Works
           template: classic
           base: header, activity, community, repositories
-          config_theme: dark
-          plugin_streak: yes
           plugin_languages: yes
           plugin_languages_sections: most-used
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
           filename: profile/github-metrics.svg
           committer_branch: main
