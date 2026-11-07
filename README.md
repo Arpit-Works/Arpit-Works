@@ -1,21 +1,28 @@
-<h3 align="center">
-  Hi 👋, I'm Arpit Vishwakarma
-</h3>
-
-<h3 align="center">
-  Backend-Focused Full Stack Developer
-</h3>
-
+<!-- Banner -->
 <p align="center">
-  <b>Node.js • TypeScript • REST APIs • Microservices • System Design</b>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:161B22&height=170&section=header&text=Arpit%20Vishwakarma&fontSize=42&fontColor=C9D1D9&fontAlignY=38&desc=%20full-stack%20developer&descSize=16&descColor=3FB950&descAlignY=58" width="100%" />
+</p>
+
+<!-- Typing animation -->
+<p align="center">
+  <a href="https://arpit-omega.vercel.app/">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3000&pause=1000&color=3FB950&center=true&vCenter=true&width=620&lines=I+work+where+things+break.;APIs+%E2%80%A2+Queues+%E2%80%A2+Caches+%E2%80%A2+Databases;Node.js+%E2%80%A2+TypeScript+%E2%80%A2+Microservices;Alerts+cut+100k+%E2%86%92+40k+per+month" alt="Typing SVG" />
+  </a>
+</p>
+
+<!-- Primary buttons -->
+<p align="center">
+  <a href="https://arpit-omega.vercel.app/"><img src="https://img.shields.io/badge/%E2%86%97%20View%20Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=161B22" alt="View Portfolio" /></a>
+  <a href="https://drive.google.com/file/d/1Sz3t9RNbCna1JFTx0fq4SClsl7nLMgxX/view"><img src="https://img.shields.io/badge/%E2%86%93%20View%20Resume-161B22?style=for-the-badge&logo=googledrive&logoColor=3FB950&labelColor=0D1117" alt="View Resume" /></a>
+  <a href="https://www.linkedin.com/in/arpit-vishwakarma23/"><img src="https://img.shields.io/badge/LinkedIn-Connect-161B22?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" /></a>
+  <a href="mailto:vishwakarmaarpit621@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-161B22?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" /></a>
 </p>
 
 <p align="center">
-  Building scalable backend systems, production-ready APIs, and reliable full-stack applications.
+  <img src="https://img.shields.io/badge/status-available%20for%20%20full--stack%20roles-3FB950?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/location-Mumbai%2C%20India-161B22?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Netcore%20Cloud-Associate%20Software%20Engineer-161B22?style=flat-square&labelColor=0D1117" />
 </p>
-
-<p align="center"> <a href="https://arpit-omega.vercel.app/"> <img src="https://img.shields.io/badge/Portfolio-Visit-000?style=for-the-badge&logo=vercel&logoColor=white" /> </a> <a href="https://drive.google.com/file/d/1Sz3t9RNbCna1JFTx0fq4SClsl7nLMgxX/view"> <img src="https://img.shields.io/badge/Resume-View-2E7D32?style=for-the-badge&logo=googledrive&logoColor=white" /> </a> <a href="https://www.linkedin.com/in/arpit-vishwakarma23/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="mailto:vishwakarmaarpit621@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a> </p>
-
 
 ---
 
@@ -45,49 +52,8 @@ System Design & Scalability
 ```
 
 ---
+<h2 align="center">Tech Stack</h2> <p align="center"> <img src="https://skillicons.dev/icons?i=js,ts,python,bash,nodejs,express,nestjs,redis,mongodb,mysql,react,nextjs,tailwind,docker,linux,aws,gcp,git,githubactions&theme=dark" /> </p> <p align="center"><sub>Observability: Kibana · Opsgenie · Jira &nbsp;|&nbsp; Cloud: AWS (EC2, SQS, Load Balancing), GCP</sub></p>
 
-## 🛠️ Tech Stack
-
-### 💻 Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,bash" />
-</p>
-
-### ⚙️ Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,redis" />
-  <img src="https://cdn.simpleicons.org/jsonwebtokens/white" height="48" alt="JWT" />
-</p>
-
-### 🎨 Frontend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,materialui" />
-</p>
-
-### 🗄️ Databases
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql" />
-  <img src="https://cdn.simpleicons.org/databricks" height="48" alt="VerticaDB" />
-</p>
-
-### ☁️ DevOps & Cloud
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,gcp,postman" />
-</p>
-
-### 📊 Monitoring & Collaboration
-
-<p>
-  <img src="https://cdn.simpleicons.org/opsgenie" height="48" alt="Opsgenie" />
-  <img src="https://cdn.simpleicons.org/jira/white" height="48" alt="Jira" />
-</p>
-
----
 
 ## 💼 Professional Experience
 
