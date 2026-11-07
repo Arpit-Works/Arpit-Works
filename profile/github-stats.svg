@@ -1,29 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="230" viewBox="0 0 840 230" role="img" aria-label="Current streak and top languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="230" viewBox="0 0 920 230" role="img" aria-label="Current streak and top languages">
 <defs>
   <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3FB950"/><stop offset="1" stop-color="#58A6FF"/></linearGradient>
-  <clipPath id="r"><rect x="400" y="78" width="400" height="10" rx="5"/></clipPath>
+  <clipPath id="r"><rect x="500" y="78" width="390" height="10" rx="5"/></clipPath>
 </defs>
 <style>
   text{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
   .label{font-size:11px;letter-spacing:1.6px;fill:#7D8590;font-weight:600}
   .big{font-size:68px;font-weight:700;fill:url(#g)}
+  .mid{font-size:44px;font-weight:700;fill:#E6EDF3}
   .unit{font-size:18px;fill:#C9D1D9;font-weight:500}
+  .unit2{font-size:15px;fill:#C9D1D9;font-weight:500}
   .sub{font-size:12px;fill:#7D8590}
   .lang{font-size:13px;fill:#C9D1D9}
   .pct{font-size:12px;fill:#7D8590;font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
 </style>
-<rect x="0.5" y="0.5" width="839" height="229" rx="12" fill="#0D1117" stroke="#30363D"/>
-<rect x="0.5" y="0.5" width="839" height="3" rx="1.5" fill="url(#g)" opacity="0.9"/>
+<rect x="0.5" y="0.5" width="919" height="229" rx="12" fill="#0D1117" stroke="#30363D"/>
+<rect x="0.5" y="0.5" width="919" height="3" rx="1.5" fill="url(#g)" opacity="0.9"/>
 
 <text x="40" y="52" class="label">CURRENT STREAK</text>
 <text x="40" y="132" class="big">2</text>
-<text x="102" y="132" class="unit">days</text>
+<text x="94" y="132" class="unit">days</text>
 <text x="40" y="162" class="sub">Since Nov 06, 2026</text>
-<text x="40" y="184" class="sub">@Arpit-Works · contributions on GitHub</text>
 
-<line x1="350" y1="36" x2="350" y2="194" stroke="#21262D"/>
+<text x="270" y="52" class="label">LONGEST STREAK</text>
+<text x="270" y="132" class="mid">29</text>
+<text x="332" y="132" class="unit2">days</text>
+<text x="270" y="162" class="sub">Oct 05 – Nov 02, 2026</text>
 
-<text x="400" y="52" class="label">MOST USED LANGUAGES</text>
-<g clip-path="url(#r)"><rect x="400.00" y="78" width="155.03" height="10" fill="#E34C26"/><rect x="557.03" y="78" width="126.30" height="10" fill="#F1E05A"/><rect x="685.33" y="78" width="90.39" height="10" fill="#3178C6"/><rect x="777.72" y="78" width="17.64" height="10" fill="#8E5CD9"/><rect x="797.36" y="78" width="1.00" height="10" fill="#3572A5"/><rect x="799.96" y="78" width="1.00" height="10" fill="#2496ED"/></g>
-<circle cx="405" cy="122" r="4.5" fill="#E34C26"/><text x="418" y="126" class="lang">HTML</text><text x="585" y="126" class="pct" text-anchor="end">39.3%</text><circle cx="405" cy="148" r="4.5" fill="#F1E05A"/><text x="418" y="152" class="lang">JavaScript</text><text x="585" y="152" class="pct" text-anchor="end">32.1%</text><circle cx="405" cy="174" r="4.5" fill="#3178C6"/><text x="418" y="178" class="lang">TypeScript</text><text x="585" y="178" class="pct" text-anchor="end">23.1%</text><circle cx="405" cy="200" r="4.5" fill="#8E5CD9"/><text x="418" y="204" class="lang">CSS</text><text x="585" y="204" class="pct" text-anchor="end">4.9%</text><circle cx="610" cy="122" r="4.5" fill="#3572A5"/><text x="623" y="126" class="lang">Python</text><text x="790" y="126" class="pct" text-anchor="end">0.6%</text><circle cx="610" cy="148" r="4.5" fill="#2496ED"/><text x="623" y="152" class="lang">Dockerfile</text><text x="790" y="152" class="pct" text-anchor="end">0.0%</text>
+<text x="40" y="196" class="sub">@Arpit-Works · contributions on GitHub</text>
+
+<line x1="458" y1="36" x2="458" y2="194" stroke="#21262D"/>
+
+<text x="500" y="52" class="label">MOST USED LANGUAGES</text>
+<g clip-path="url(#r)"><rect x="500.00" y="78" width="150.88" height="10" fill="#E34C26"/><rect x="652.88" y="78" width="122.91" height="10" fill="#F1E05A"/><rect x="777.78" y="78" width="87.95" height="10" fill="#3178C6"/><rect x="867.73" y="78" width="17.12" height="10" fill="#8E5CD9"/><rect x="886.85" y="78" width="1.11" height="10" fill="#3572A5"/><rect x="889.96" y="78" width="1.00" height="10" fill="#2496ED"/></g>
+<circle cx="505" cy="122" r="4.5" fill="#E34C26"/><text x="518" y="126" class="lang">HTML</text><text x="685" y="126" class="pct" text-anchor="end">39.2%</text><circle cx="505" cy="148" r="4.5" fill="#F1E05A"/><text x="518" y="152" class="lang">JavaScript</text><text x="685" y="152" class="pct" text-anchor="end">32.0%</text><circle cx="505" cy="174" r="4.5" fill="#3178C6"/><text x="518" y="178" class="lang">TypeScript</text><text x="685" y="178" class="pct" text-anchor="end">23.1%</text><circle cx="505" cy="200" r="4.5" fill="#8E5CD9"/><text x="518" y="204" class="lang">CSS</text><text x="685" y="204" class="pct" text-anchor="end">4.9%</text><circle cx="710" cy="122" r="4.5" fill="#3572A5"/><text x="723" y="126" class="lang">Python</text><text x="890" y="126" class="pct" text-anchor="end">0.8%</text><circle cx="710" cy="148" r="4.5" fill="#2496ED"/><text x="723" y="152" class="lang">Dockerfile</text><text x="890" y="152" class="pct" text-anchor="end">0.0%</text>
 </svg>
