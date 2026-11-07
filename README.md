@@ -57,69 +57,91 @@ System Design & Scalability
 
 ## 💼 Professional Experience
 
-### Associate Software Engineer — Netcore Cloud
-
-**Feb 2025 – Present**
-
-- 🔍 Monitor and troubleshoot distributed microservices in production environments
-- ⚙️ Automate monitoring and operational workflows using **Python & Bash**
-- 🐛 Investigate production incidents using **logs, traces, metrics, and API debugging**
-- 🚀 Collaborate with backend teams to identify performance bottlenecks and improve system reliability
-- 🛠️ Contribute to internal tooling and operational efficiency
-- 📈 Work with production systems where reliability, observability, and debugging are critical
+<table>
+  <tr>
+    <td width="130" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Feb%202025-Present-3FB950?style=flat-square&labelColor=0D1117" /><br /><br />
+      <sub><b>Mumbai, India</b></sub>
+    </td>
+    <td>
+      <h3>Associate Software Engineer · <a href="https://netcorecloud.com">Netcore Cloud</a></h3>
+      <sub><i>Production reliability · Observability · Backend support</i></sub>
+      <br /><br />
+      <table>
+        <tr>
+          <td align="center"><h3>100k → 40k</h3><sub>monthly alerts<br />after noise reduction</sub></td>
+          <td align="center"><h3>Python + Bash</h3><sub>automated monitoring<br />&amp; ops workflows</sub></td>
+          <td align="center"><h3>Microservices</h3><sub>monitored &amp; debugged<br />in production</sub></td>
+        </tr>
+      </table>
+      <br />
+      <b>🔍 Incident response</b> — Investigate production incidents using logs, traces, metrics and API debugging.<br />
+      <b>⚙️ Automation</b> — Built Python &amp; Bash tooling to remove manual operational work.<br />
+      <b>🚀 Performance</b> — Work with backend teams to find bottlenecks and improve system reliability.<br />
+      <b>🛠️ Internal tooling</b> — Contribute to tools that improve team efficiency.
+      <br /><br />
+      <img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" />
+      <img src="https://img.shields.io/badge/Opsgenie-172B4D?style=flat-square&logo=opsgenie&logoColor=white" />
+      <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏫 MIS Dashboard — Role-Based College Management System
-
-**Node.js • Express.js • TypeScript • MongoDB • Socket.io**
-
-A full-stack management platform designed around role-based access and real-time communication.
-
-#### Key Features
-
-- 🔐 JWT-based authentication
-- 🔄 Refresh token rotation
-- 👥 Role-based access control
-- ⚡ Real-time updates using Socket.io
-- 📊 Analytics and reporting dashboards
-- 🔌 RESTful API architecture
-- 🗄️ MongoDB-based data management
-
----
-
-### 🌐 Personal Portfolio
-
-**Next.js • TypeScript • Tailwind CSS**
-
-My personal developer portfolio showcasing my experience, projects, and technical skills.
-
-#### Highlights
-
-- ⚡ Performance optimized
-- 🔎 SEO optimized
-- 🧩 Reusable component architecture
-- 📱 Fully responsive design
-- 🛡️ Type-safe development with TypeScript
-
-<p align="center">
-  <a href="https://arpit-omega.vercel.app/">
-    <img src="https://img.shields.io/badge/View%20Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏫 MIS Dashboard</h3>
+      <sub><i>Role-based college management system</i></sub>
+      <p>Full-stack platform built around secure role-based access and real-time communication.</p>
+      <ul>
+        <li>🔐 JWT auth with refresh token rotation</li>
+        <li>👥 Role-based access control</li>
+        <li>⚡ Real-time updates via Socket.io</li>
+        <li>📊 Analytics &amp; reporting dashboards</li>
+        <li>🔌 REST API + MongoDB data layer</li>
+      </ul>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+      <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" />
+      <br /><br />
+      <!-- TODO: replace with the real repo link -->
+      <a href="https://github.com/Arpit-Works?tab=repositories"><img src="https://img.shields.io/badge/Source%20Code-161B22?style=for-the-badge&logo=github&logoColor=white" /></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌐 Personal Portfolio</h3>
+      <sub><i>Developer portfolio &amp; project showcase</i></sub>
+      <p>Fast, accessible portfolio presenting my experience, projects and technical skills.</p>
+      <ul>
+        <li>⚡ Performance optimized</li>
+        <li>🔎 SEO optimized</li>
+        <li>🧩 Reusable component architecture</li>
+        <li>📱 Fully responsive design</li>
+        <li>🛡️ Type-safe with TypeScript</li>
+      </ul>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+      <br /><br />
+      <a href="https://arpit-omega.vercel.app/"><img src="https://img.shields.io/badge/Live%20Demo-3FB950?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📊 GitHub Stats
 
-
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=Arpit-Works&theme=tokyonight&hide_border=true"
-    width="60%"
-  />
+  <img src="./profile/github-metrics.svg" width="100%" alt="GitHub metrics" />
 </p>
 
 ---
