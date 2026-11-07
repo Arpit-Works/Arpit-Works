@@ -2,7 +2,7 @@ name: GitHub Stats
 on:
   schedule: [{ cron: "0 */6 * * *" }]
   workflow_dispatch:
-  push: { branches: [main], paths: ["scripts/generate_stats.py"] }
+  push: { branches: [main], paths: ["generate_stats.py"] }
 
 permissions:
   contents: write
