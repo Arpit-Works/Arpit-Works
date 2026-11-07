@@ -16,9 +16,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Arpit-Works
           template: classic
-          base: header, activity, community, repositories
+          base: header, repositories
+          config_display: regular
+          config_animations: no
           plugin_languages: yes
           plugin_languages_sections: most-used
+          plugin_languages_limit: 6
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           filename: profile/github-metrics.svg
