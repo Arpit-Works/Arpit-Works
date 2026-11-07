@@ -141,7 +141,7 @@ System Design & Scalability
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="./profile/github-metrics.svg" width="100%" alt="GitHub metrics" />
+  <img src="./profile/github-metrics.svg" width="480" alt="GitHub metrics" />
 </p>
 
 ---
