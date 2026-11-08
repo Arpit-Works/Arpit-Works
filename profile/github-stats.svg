@@ -18,7 +18,7 @@
 <rect x="0.5" y="0.5" width="919" height="3" rx="1.5" fill="url(#g)" opacity="0.9"/>
 
 <text x="40" y="52" class="label">CURRENT STREAK</text>
-<text x="40" y="132" class="big">2</text>
+<text x="40" y="132" class="big">3</text>
 <text x="94" y="132" class="unit">days</text>
 <text x="40" y="162" class="sub">Since Nov 06, 2026</text>
 
@@ -32,6 +32,6 @@
 <line x1="458" y1="36" x2="458" y2="194" stroke="#21262D"/>
 
 <text x="500" y="52" class="label">MOST USED LANGUAGES</text>
-<g clip-path="url(#r)"><rect x="500.00" y="78" width="150.88" height="10" fill="#E34C26"/><rect x="652.88" y="78" width="122.91" height="10" fill="#F1E05A"/><rect x="777.78" y="78" width="87.95" height="10" fill="#3178C6"/><rect x="867.73" y="78" width="17.12" height="10" fill="#8E5CD9"/><rect x="886.85" y="78" width="1.11" height="10" fill="#3572A5"/><rect x="889.96" y="78" width="1.00" height="10" fill="#2496ED"/></g>
-<circle cx="505" cy="122" r="4.5" fill="#E34C26"/><text x="518" y="126" class="lang">HTML</text><text x="685" y="126" class="pct" text-anchor="end">39.2%</text><circle cx="505" cy="148" r="4.5" fill="#F1E05A"/><text x="518" y="152" class="lang">JavaScript</text><text x="685" y="152" class="pct" text-anchor="end">32.0%</text><circle cx="505" cy="174" r="4.5" fill="#3178C6"/><text x="518" y="178" class="lang">TypeScript</text><text x="685" y="178" class="pct" text-anchor="end">23.1%</text><circle cx="505" cy="200" r="4.5" fill="#8E5CD9"/><text x="518" y="204" class="lang">CSS</text><text x="685" y="204" class="pct" text-anchor="end">4.9%</text><circle cx="710" cy="122" r="4.5" fill="#3572A5"/><text x="723" y="126" class="lang">Python</text><text x="890" y="126" class="pct" text-anchor="end">0.8%</text><circle cx="710" cy="148" r="4.5" fill="#2496ED"/><text x="723" y="152" class="lang">Dockerfile</text><text x="890" y="152" class="pct" text-anchor="end">0.0%</text>
+<g clip-path="url(#r)"><rect x="500.00" y="78" width="150.73" height="10" fill="#E34C26"/><rect x="652.73" y="78" width="123.16" height="10" fill="#F1E05A"/><rect x="777.89" y="78" width="87.86" height="10" fill="#3178C6"/><rect x="867.75" y="78" width="17.10" height="10" fill="#8E5CD9"/><rect x="886.85" y="78" width="1.11" height="10" fill="#3572A5"/><rect x="889.96" y="78" width="1.00" height="10" fill="#2496ED"/></g>
+<circle cx="505" cy="122" r="4.5" fill="#E34C26"/><text x="518" y="126" class="lang">HTML</text><text x="685" y="126" class="pct" text-anchor="end">39.2%</text><circle cx="505" cy="148" r="4.5" fill="#F1E05A"/><text x="518" y="152" class="lang">JavaScript</text><text x="685" y="152" class="pct" text-anchor="end">32.1%</text><circle cx="505" cy="174" r="4.5" fill="#3178C6"/><text x="518" y="178" class="lang">TypeScript</text><text x="685" y="178" class="pct" text-anchor="end">23.0%</text><circle cx="505" cy="200" r="4.5" fill="#8E5CD9"/><text x="518" y="204" class="lang">CSS</text><text x="685" y="204" class="pct" text-anchor="end">4.9%</text><circle cx="710" cy="122" r="4.5" fill="#3572A5"/><text x="723" y="126" class="lang">Python</text><text x="890" y="126" class="pct" text-anchor="end">0.8%</text><circle cx="710" cy="148" r="4.5" fill="#2496ED"/><text x="723" y="152" class="lang">Dockerfile</text><text x="890" y="152" class="pct" text-anchor="end">0.0%</text>
 </svg>
