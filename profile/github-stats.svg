@@ -18,9 +18,9 @@
 <rect x="0.5" y="0.5" width="919" height="3" rx="1.5" fill="url(#g)" opacity="0.9"/>
 
 <text x="40" y="52" class="label">CURRENT STREAK</text>
-<text x="40" y="132" class="big">3</text>
+<text x="40" y="132" class="big">0</text>
 <text x="94" y="132" class="unit">days</text>
-<text x="40" y="162" class="sub">Since Nov 06, 2026</text>
+<text x="40" y="162" class="sub">Since No active streak</text>
 
 <text x="270" y="52" class="label">LONGEST STREAK</text>
 <text x="270" y="132" class="mid">29</text>
